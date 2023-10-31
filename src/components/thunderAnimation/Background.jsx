@@ -1,33 +1,33 @@
 
 import { WaterDrop } from "../dropAnimation/WaterDrop";
 import { Effect, StormyContainer} from "./BackgroundStyle";
-import { useState,useEffect } from "react";
+// import { useState,useEffect } from "react";
 
 const Bakground = ()=>{
 
-    const [storm, setStorm] = useState(false)
+    // const [storm, setStorm] = useState(false)
 
    
   
-    useEffect(() => {
+    // useEffect(() => {
         
-        const startTimer =setTimeout(()=>{
-            setStorm(true)
-        },2000)
+    //     const startTimer =setTimeout(()=>{
+    //         setStorm(true)
+    //     },2000)
       
-        const timer = setTimeout(() => {
-            setStorm(false);
-        }, 4000);
+    //     const timer = setTimeout(() => {
+    //         setStorm(false);
+    //     }, 4000);
 
        
-        return () => clearTimeout(timer);
-    }, []);
+    //     return () => clearTimeout(timer);
+    // }, []);
 
    
     return(
        
         <StormyContainer>
-            {storm &&  <Effect/> } 
+            {/* {storm &&  <Effect/> }  */}
             <WaterDrop/>
         </StormyContainer>
     )
