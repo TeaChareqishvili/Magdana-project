@@ -1,5 +1,5 @@
 
-// import { MainBackground } from "./BackgroundStyle"
+import { WaterDrop } from "../dropAnimation/WaterDrop";
 import { Effect, StormyContainer} from "./BackgroundStyle";
 import { useState,useEffect } from "react";
 
@@ -27,8 +27,8 @@ const Bakground = ()=>{
     return(
        
         <StormyContainer>
-            {storm &&  <Effect/> }
-        
+            {storm &&  <Effect/> } 
+            <WaterDrop/>
         </StormyContainer>
     )
 }
