@@ -1,0 +1,34 @@
+.bottle-wrapper{
+
+    margin-top:10px;
+    position:absolute;
+    bottom:-122px;
+    right:101px;
+    z-index:0;
+
+    .line{
+        position:relative;
+        animation: rotateLine 1.5s linear infinite;
+        z-index:0;
+
+        .bottle{
+            position: absolute;
+            top:111px;
+            right:11px;
+            z-index:1;
+           
+        }
+    }
+
+    @keyframes rotateLine {
+        0% {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+        50% {
+          transform: translate(-50%, -50%) rotate(-7deg); 
+        }
+        100% {
+          transform: translate(-50%, -50%) rotate(0deg);
+        }
+      }
+}

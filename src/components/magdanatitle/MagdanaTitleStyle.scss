@@ -1,26 +1,24 @@
 .magdana-wrapper{
     width:100%;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     padding:10px 38px;
+    position:relative;
+    z-index:2;
 
-    .title{
+   .magdana-title{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index:4;
+  
+   
+   
+    img{
         width:100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-
-
-        .title{
-            position: absolute;
-            top:135px;
-            max-width:600px;
-            width:100%;
-            
-        }
-       
+        z-index:1;
     }
+}
 }

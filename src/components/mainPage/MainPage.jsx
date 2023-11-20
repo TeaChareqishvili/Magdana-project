@@ -9,6 +9,7 @@ const MainPage =()=>{
     return (
         <div className= "day-mode">
          <MagdanaTitle/>
+         vhv
         </div>
     )
 }
