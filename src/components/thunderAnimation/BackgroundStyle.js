@@ -20,13 +20,14 @@ const flash = keyframes`
 
 export const StormyContainer = styled.div`
   width: 100%;
-  height: 100vh;
-  /* background-color:rgb(0,0,50); */
-  background-color:darkblue;
+  height: 100%;
+  background-image:url(././magdana.jpeg);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
   position: relative;
   overflow: hidden;
  
-
 `;
 
 export const Effect = styled.div`
@@ -35,6 +36,6 @@ export const Effect = styled.div`
   position:absolute;
   top:0;
   left:0;
-  background-color:	rgb(169,169,169);
-  animation: ${flash} 500ms ease-in infinite;
+   background-color:#20253a;
+  animation: ${flash} 1s ease-in infinite;
 `

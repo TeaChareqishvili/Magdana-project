@@ -1,13 +1,12 @@
+import { MainPage } from "./components/mainPage/MainPage";
 
-import { Bakground } from "./components/thunderAnimation/Background";
 
 
 
 function App() {
   return (
     <div className="App">
-    <Bakground/>
-   
+     <MainPage/>
     </div>
   );
 }
