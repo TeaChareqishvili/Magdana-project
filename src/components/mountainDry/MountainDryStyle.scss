@@ -1,0 +1,60 @@
+.mountain-title-wrapper{
+  
+    margin:10px auto;
+
+    .pink-title{
+
+        position:relative;
+
+        .flash{
+            font-family: "inconsolata";
+            color:#FF00C74A;
+            font-size:24px;
+            font-weight:400;
+            text-align: center;
+            animation: flashing 1s linear infinite;
+            text-shadow: 2px 2px 4px rgba(255, 0, 199, 0.5)
+        }
+
+        .black-title{
+            position:absolute;
+            top:7px;
+            left: 26%; 
+    
+
+            h3{
+                font-family: "inconsolata";
+                color:#20253A;
+                font-size:24px;
+                font-weight:400;
+            }
+           
+        }
+       
+    }
+    @keyframes flashing {
+        0%{
+            opacity:0.3
+        }
+        20%{
+            opacity: 0.5;
+        }
+        40%{
+            opacity: 0.8;
+        }
+        60%{
+            opacity: 1;
+        }
+        80%{
+            opacity: 0.5;
+        }
+        90%{
+            opacity: 0.3;
+        }
+        100%{
+            opacity: 0.1;
+        }
+
+        
+    }
+}

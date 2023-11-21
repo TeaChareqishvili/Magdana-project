@@ -1,7 +1,7 @@
 import "./MagdanaTitleStyle.scss";
 import magdanaFace from "../../assets/magdanaFace 1.png";
 import magdana from "../../assets/fontGold.png";
-// import { BlueBottle } from "../blueBootle/BlueBottle";
+import { BlueBottle } from "../blueBootle/BlueBottle";
 
 
 const MagdanaTitle = () => {
@@ -11,7 +11,7 @@ const MagdanaTitle = () => {
       <div className="magdana-title">
         <img src={magdana} alt="magdana-title" />
       </div>
-      {/* <BlueBottle/> */}
+      <BlueBottle/>
     </div>
   );
 };

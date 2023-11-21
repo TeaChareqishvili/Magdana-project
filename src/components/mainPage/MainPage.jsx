@@ -1,6 +1,6 @@
- import "./MainPage.scss";
-
+import "./MainPage.scss";
 import { MagdanaTitle } from "../magdanatitle/MagdanaTitle";
+import { MountainDry } from "../mountainDry/MountainDry";
 
 const MainPage =()=>{
 
@@ -9,7 +9,7 @@ const MainPage =()=>{
     return (
         <div className= "day-mode">
          <MagdanaTitle/>
-         vhv
+         <MountainDry/>
         </div>
     )
 }
