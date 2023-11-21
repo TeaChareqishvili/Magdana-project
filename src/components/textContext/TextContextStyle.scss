@@ -1,0 +1,43 @@
+.text-wrapper{
+    width:100%;
+    margin-top:38px;
+    overflow-y: scroll;
+    height:250px;
+    -ms-overflow-style: none;  
+    scrollbar-width: none;
+
+    .left-text{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        p{
+            max-width:199px;
+            width:100%;
+            font-family: "inconsolata";
+            font-size:14px;
+            color:#20253A;
+            line-height: 1.1;
+        }
+    }
+
+    .right-text{
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        margin-top:39px;
+
+        p{
+            max-width:196px;
+            width:100%;
+            font-family: "inconsolata";
+            font-size:14px;
+            color:#20253A;
+            line-height: 1.1;
+            text-align: right;
+        }
+    }
+}
+
+.text-wrapper::-webkit-scrollbar {
+    display: none;
+}
