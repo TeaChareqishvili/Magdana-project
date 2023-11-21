@@ -1,0 +1,32 @@
+.footer-wrapper{
+    width:100%;
+    margin:65px auto 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .copy-right{
+      
+        p{
+            font-size:14px;
+            font-family:"inconsolata";
+            font-weight:600;
+            color:#625d61;
+        }
+       
+       
+    }
+    .soc-media{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+
+        .media{
+            width:24px;
+            height:24px;
+            cursor: pointer;
+            color:#3594c8;
+            margin-right:5px;
+        }
+    }
+}
