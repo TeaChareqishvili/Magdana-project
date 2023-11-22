@@ -11,7 +11,7 @@ const Footer = () => {
       </div>
       <div className="soc-media">
         <ImLinkedin className="media" />
-        <FaSquareInstagram  className="media" />
+        <FaSquareInstagram  className="instagram" />
         <ImFacebook2 className="media" />
       </div>
     </div>

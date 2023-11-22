@@ -36,6 +36,35 @@
             text-align: right;
         }
     }
+    .middle-text{
+        margin:70px auto 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        p{
+            max-width:247px;
+            width:100%;
+            color:#20253A;
+            font-family:"inconsolata";
+            font-size:14px;
+            line-height: 1.1;
+            text-align: left;
+            margin-bottom:15px;
+        }
+    }
+    .air-ship{
+        width:100%;
+        display: flex;
+        align-items: flex-end;
+        justify-content: flex-end;
+        
+        img{
+            max-width:258px;
+            width:100%;
+        }
+    }
 }
 
 .text-wrapper::-webkit-scrollbar {
